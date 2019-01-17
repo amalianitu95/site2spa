@@ -1,0 +1,31 @@
+body{
+    background: #dcdc;
+}
+
+p{
+    color: black;
+    font-size: 24px;
+}
+a{
+    text-decoration: underline ;
+}
+div{
+    text-align: center;
+    background-color: purple;
+    padding: 5px;
+}
+        
+.link-sections{
+    background-color: pink;
+    text-align: left;
+    margin: 10px;
+    border: 3px dotted purple;
+}
+        
+.link-sections a{
+    color: blue;
+}
+
+img{
+    max-width: 400px;
+}

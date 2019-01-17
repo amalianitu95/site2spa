@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>A Single Page Application</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+ 
+</head>
+<body>
+   
+        <div >
+           <p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGRxn8A-2U8IpSo4fIKuOl4QWxypLMpBo4iXHtAvgQ9hCNFZG3"></img>
+            <br>
+            <p id="helloText">????</p>
+            <button id="myButton">Press here</button>
+            <br>
+            <br>
+            Latest Movie News & Rumors
+           </p>
+            
+        </div>
+         <div class="link-sections">
+           <p>
+            This is link to: 
+            <a href="https://www.cinemagia.ro/"> Cinemagia </a>
+           </p>
+        </div>
+        <div class="link-sections">
+           <p>
+              This is link to:
+            <a href=" https://www.cinemablend.com/"> Cinemablend </a>
+           </p>
+        </div>
+        <script>
+            var text = document.getElementById("helloText")
+            var button = document.getElementById("myButton")
+            
+            button.addEventListener('click', changeIt, false)
+            
+            function changeIt(){
+                text.textContent = "The best movies!"
+            }
+        </script>
+       
+</body>
+</html>
